@@ -1,0 +1,82 @@
+.rex-slice-edit .panel-body,
+.rex-slice-add .panel-body {
+    background-color: #222;
+    color: #DDD;
+}
+
+.rex-slice-edit .panel-body legend,
+.rex-slice-add .panel-body legend {
+    color: #CCC;
+    border-color: #575757;
+}
+
+.dark-mform-wrapper input,
+.dark-mform-wrapper select,
+.dark-mform-wrapper textarea {
+    background-color: #222;
+    border-color: #575757;
+    color: #CCC;
+}
+
+.dark-mform-wrapper input.form-control:focus,
+.dark-mform-wrapper select.form-control:focus,
+.dark-mform-wrapper textarea.form-control:focus {
+    background-color: #111;
+    border-color: #7d7d7d;
+    color: #EEE;
+    box-shadow: none;
+}
+
+.dark-mform-wrapper .form-control[disabled],
+.dark-mform-wrapper .form-control[readonly],
+.dark-mform-wrapper fieldset[disabled] .form-control {
+    background-color: #222;
+    border-color: #575757;
+    color: #CCC;
+}
+
+/*
+ * right Media Toolbar
+ */
+
+.dark-mform-wrapper .input-group > span.input-group-addon {
+    background-color: #222;
+    border-color: #7d7d7d;
+}
+
+/*
+ *   Buttons
+ */
+
+.dark-mform-wrapper .btn {
+    background-color: #222;
+    color: #CCC;
+    border-color: #575757;
+}
+
+.dark-mform-wrapper .btn:hover {
+    background-color: #111;
+    color: #EEE;
+}
+
+/*
+ * Tabs
+ */
+
+.rex-main-frame .rex-page-nav .nav-tabs {
+    border-color: #575757 !important;
+}
+
+.rex-main-frame .rex-page-nav .nav-tabs > li.active > a:not(.btn),
+.rex-main-frame .rex-page-nav .nav-tabs > li.active > a:not(.btn):hover {
+    background-color: #c6c6c6;
+    color: #222;
+    border-top-color: transparent;
+}
+
+.rex-main-frame .rex-page-nav .nav-tabs > li > a:not(.btn),
+.rex-page-nav .nav-tabs > li > a:not(.btn):hover {
+    background-color: #424242;
+    color: #c6c6c6;
+    border-top-color: transparent;
+}
